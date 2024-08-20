@@ -27,12 +27,12 @@ Clone this repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/your-portfolio-repo.git
+git clone https://github.com/Niyamath09/portfolio-repo.git
 Navigate to the project directory:
 
 bash
 Copy code
-cd your-portfolio-repo
+cd portfolio-repo
 Install dependencies:
 
 bash
