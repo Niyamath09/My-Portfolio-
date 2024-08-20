@@ -20,30 +20,7 @@ Interactive Design: Enhanced user experience with dynamic content and animations
 Responsive Layout: Designed to work seamlessly across various devices.
 Stylish UI: Incorporates maroon colors, transitions, and stylish fonts for a modern look.
 Fully Clickable Resume Box: An interactive box that links to my resume.
-Installation
-To run this project locally, follow these steps:
 
-Clone this repository:
-
-bash
-Copy code
-git clone https://github.com/Niyamath09/portfolio-repo.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd portfolio-repo
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-Open your browser and visit http://localhost:3000 to view the portfolio.
 
 Usage
 Feel free to explore the portfolio to see examples of my work, read about my background, and get in touch via the contact form.
