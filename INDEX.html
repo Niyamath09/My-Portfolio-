@@ -1,51 +1,14 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en"></html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Niyamath's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Modal Styles */
-        .modal {
-            display: none; /* Hidden by default */
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-        }
-
-        .modal-content {
-            background-color: #fefefe;
-            margin: 15% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%; /* Could be more or less, depending on screen size */
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
-    <header> 
-        <a href="#">PORTFOLIO</a>
+    <header> <a href="#">PORTFOLIO</a>
         <div class="content"></div>
         <nav>
             <ul>
@@ -55,150 +18,178 @@
                 <a href="#contact">CONTACT</a>
             </ul>
         </nav>
+        </div>
     </header>
-
     <div id="home">
-        <article id="home"></article>
-        <center><h1><b> </b></h1></center>
-        <p>A passionate Full Stack Developer, dynamic professional with a flair for innovation and a strong technical acumen, dedicated to solving complex challenges and spearheading development in fast-paced environments.</p>
+         <article id="home"></article>
+         <center><h1><b> </b></h1></center>
+         <p>A passionate Full Stack Developer, dynamic professional with a flair for innovation and a strong technical acumen, dedicated to solving complex challenges and spearheading development in fast-paced environments.</p1> 
     
-        <div id="project-box" class="fade-in">
-            <center> <a href="#projects"><h2>PROJECTS</h2></a> </center>
+    
+    <div id="project-box" class="fade-in">
+   <center> <a href="#projects"><h2>PROJECTS</h2></a>  </center>
+    </div>
+</div>
+    <div id="main">
+         <section id="about">
+         <article id="about">
+            <center><h1>ABOUT</h1></center><br>
+            <p style="font-size: 18px;">Here you will find more information about me, what I do, and my current skills mostly in terms <br>of programming and technology</p>
+            <div class="content-wrapper">
+                <div class="left-side">
+                    <h2>Get to know me!</h2>
+                    <p>I'm a <b>Full-stack Developer</b> building and managing the Front-end as well as Back-end of Websites and Web Applications that leads to the success of the overall product.</p>
+                    <p>You can <b>Contact me</b> for any further details.</p>
+                    <div id="resume-box" class="fade-in">
+                        <a href="V H NIYAMATHULLA RESUME.pdf"download>MY RESUME</a>
+                        <div class="pdf-container">
+                        <iframe src="path/to/your/document.pdf" type="application/pdf"></iframe>
+                     </div>
+                    </div>
+                </div>
+            
+                <div id=skills>
+                <div class="right-side">
+                    <h2>My Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-box fade-in">HTML</div>
+                        <div class="skill-box fade-in">CSS</div>
+                        <div class="skill-box fade-in">JavaScript</div>
+                        <div class="skill-box fade-in">SQL</div>
+                        <div class="skill-box fade-in">Python</div>
+                        <div class="skill-box fade-in">Django</div>
+                        <div class="skill-box fade-in">GitHub</div>
+                        <div class="skill-box fade-in">Figma</div>
+                        <div class="skill-box fade-in">Visual Studio Code</div>
+                        <div class="skill-box fade-in">Netlify</div>
+                        <div class="skill-box fade-in">TailwindCSS</div>
+                        <div class="skill-box fade-in">Oracle</div>
+                        <div class="skill-box fade-in">C++</div>
+                        <div class="skill-box fade-in">DBMS</div>
+                        <div class="skill-box fade-in">Problem Solving</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+
+       
+
+            <section id="projects" class="projects sec-pad">
+                <div class="main-container">
+                  <h2 class="heading heading-sec heading-sec__mb-bg">
+                    <center><span class="heading-sec__main">Projects</span></center>
+                    <span class="heading-sec__sub">
+                     <p>Here you will find some of my minor as well as major projects I have worked upon.</p>
+                    </span>
+                  </h2>
+          
+                  <div class="projects__content">
+                    <div class="projects__row">
+                      <div class="projects__row-img-cont">
+                        <img src="OIP.jpeg" alt="Software Screenshot" class="projects__row-img" loading="lazy">                      
+                      </div>
+                      <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Mouse Cursor in Eye Detection</h3>
+                        <p class="projects__row-content-desc">
+                          In this project, I created a Mouse Cursor in Eye Detection using Python and machine learning libraries. This assistant can perform tasks such as providing Sensors detect eye movement and position, capturing the user's gaze. The project showcases my ability to integrate machine learning with user-friendly interfaces to enhance user experience.
+                        </p>
+                        <a href="https://github.com/Niyamath09" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Github</a>
+                      </div>
+                    </div>
+                    <div class="projects__row">
+                      <div class="projects__row-img-cont">
+                        <img src="OIP (1).jpeg" alt="Software Screenshot" class="projects__row-img" loading="lazy">
+                      </div>
+                      <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Food Delivery App - Frontend</h3>
+                        <p class="projects__row-content-desc">
+                          I designed and implemented the frontend of a food delivery application. This project emphasizes intuitive user interfaces, seamless navigation, and responsive design, ensuring an enhanced user experience. My focus was on creating a visually appealing and easy-to-use platform that meets the needs of both users and service providers.
+                        </p>
+                        <a href="https://github.com/Niyamath09" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Github</a>
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="projects__row">
+                      <div class="projects__row-img-cont">
+                        <img src="OIP (2).jpeg" alt="Software Screenshot" class="projects__row-img" loading="lazy">
+                      </div>
+                      <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">E-Commerce Website</h3>
+                        <p class="projects__row-content-desc">
+                          For this project, I developed a user-friendly e-commerce website. Key features include secure payment integration and efficient product management, ensuring a seamless online shopping experience. The project highlights my skills in web development, design, and user experience optimization, providing a robust and secure platform for online transactions.
+                        </p>
+                        <a href="https://github.com/Niyamath09" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Github</a>
+                      </div>
+                    </div>
+                    <div class="home-hero__cta_ef">
+                    <a href="https://github.com/Niyamath09" class="btn btn--theme  btn--bg">See More</a>
+                    </div>
+    </div>
+</div>
+</section>
+ 
+
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+         <center><span class="heading-sec__main heading-sec__main--lt">Contact</span></center>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+          <p> Feel free to Contact me by submitting the form below and I will get back to you as soon as possible </p>
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://formspree.io/f/xrbzaadb" method="POST" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input required="" placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name">
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input required="" placeholder="Enter Your Email" type="text" class="contact__form-input" name="email" id="email">
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea required="" cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+ 
+     <article id="more">
+        <div session="more">
+            <h1>V H NIYAMATHULLA</h1>
+            <p>Passionate about contributing to transformative projects and achieving excellence for both organizational and personal growth.</p>
+        </div>
+     </article>
+    <div id="socials">
+        <div arcticle="socials">
+            <div session="socials">
+                <h1>SOCIALS</h1>
+                <div class="social-icons">
+                    <a href="https://github.com/Niyamath09" target="_blank">
+                        <i class="fab fa-github"></i> 
+                    </a> 
+                    <a href="linkedin.com/in/v-h-niyamathulla" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div id="main">
-        <section id="about">
-            <article id="about">
-                <center><h1>ABOUT</h1></center><br>
-                <p style="font-size: 18px;">Here you will find more information about me, what I do, and my current skills mostly in terms <br>of programming and technology</p>
-                <div class="content-wrapper">
-                    <div class="left-side">
-                        <h2>Get to know me!</h2>
-                        <p>I'm a <b>Full-stack Developer</b> building and managing the Front-end as well as Back-end of Websites and Web Applications that leads to the success of the overall product.</p>
-                        <p>You can <b>Contact me</b> for any further details.</p>
-                        <div id="resume-box" class="fade-in">
-                            <a href="#" id="openModalBtn">MY RESUME</a>
-                        </div>
-                    </div>
-                
-                    <div id="skills">
-                        <div class="right-side">
-                            <h2>My Skills</h2>
-                            <div class="skills-grid">
-                                <!-- Skills content remains unchanged -->
-                                <div class="skill-box fade-in">HTML</div>
-                                <!-- Add other skills here -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
+    <footer id="footer">
+        <p class="copyright">&copy;copyright 2024. Made by <a href="#">Niyamath</a>.</p>
+    </footer>
 
-        <section id="projects" class="projects sec-pad">
-            <div class="main-container">
-                <h2 class="heading heading-sec heading-sec__mb-bg">
-                    <center><span class="heading-sec__main">Projects</span></center>
-                    <span class="heading-sec__sub">
-                        <p>Here you will find some of my minor as well as major projects I have worked upon.</p>
-                    </span>
-                </h2>
-                <!-- Projects content remains unchanged -->
-            </div>
-        </section>
+    <div id="bg"></div>
 
-        <section id="contact" class="contact sec-pad dynamicBg">
-            <div class="main-container">
-                <h2 class="heading heading-sec heading-sec__mb-med">
-                    <center><span class="heading-sec__main heading-sec__main--lt">Contact</span></center>
-                    <span class="heading-sec__sub heading-sec__sub--lt">
-                        <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
-                    </span>
-                </h2>
-                <div class="contact__form-container">
-                    <form action="https://formspree.io/f/xrbzaadb" method="POST" class="contact__form">
-                        <div class="contact__form-field">
-                            <label class="contact__form-label" for="name">Name</label>
-                            <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name">
-                        </div>
-                        <div class="contact__form-field">
-                            <label class="contact__form-label" for="email">Email</label>
-                            <input required placeholder="Enter Your Email" type="text" class="contact__form-input" name="email" id="email">
-                        </div>
-                        <div class="contact__form-field">
-                            <label class="contact__form-label" for="message">Message</label>
-                            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn--theme contact__btn">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+    <script src="main.js"></script>
 
-        <article id="more">
-            <div session="more">
-                <h1>V H NIYAMATHULLA</h1>
-                <p>Passionate about contributing to transformative projects and achieving excellence for both organizational and personal growth.</p>
-            </div>
-        </article>
-
-        <div id="socials">
-            <div arcticle="socials">
-                <div session="socials">
-                    <h1>SOCIALS</h1>
-                    <div class="social-icons">
-                        <a href="https://github.com/Niyamath09" target="_blank">
-                            <i class="fab fa-github"></i> 
-                        </a> 
-                        <a href="linkedin.com/in/v-h-niyamathulla" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer id="footer">
-            <p class="copyright">&copy; copyright 2024. Made by <a href="#">Niyamath</a>.</p>
-        </footer>
-
-        <div id="bg"></div>
-        
-        <!-- Modal Structure -->
-        <div id="pdfModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <iframe id="pdfIframe" src="" width="100%" height="500px" frameborder="0"></iframe>
-            </div>
-        </div>
-
-        <script src="main.js"></script>
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const modal = document.getElementById('pdfModal');
-                const openModalBtn = document.getElementById('openModalBtn');
-                const closeBtn = document.querySelector('.close');
-                const pdfIframe = document.getElementById('pdfIframe');
-
-                openModalBtn.addEventListener('click', () => {
-                    // Set the src attribute to the path of your PDF
-                    pdfIframe.src = 'V H NIYAMATHULLA RESUME.pdf';
-                    modal.style.display = 'block';
-                });
-
-                closeBtn.addEventListener('click', () => {
-                    modal.style.display = 'none';
-                    pdfIframe.src = ''; // Clear the iframe src to stop loading
-                });
-
-                window.addEventListener('click', (event) => {
-                    if (event.target === modal) {
-                        modal.style.display = 'none';
-                        pdfIframe.src = ''; // Clear the iframe src to stop loading
-                    }
-                });
-            });
-        </script>
-    </body>
-</html>
+</body>
