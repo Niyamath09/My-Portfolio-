@@ -189,4 +189,28 @@
 
     <script src="main.js"></script>
 
+    <script>
+  // Create menu toggle if it doesn't exist
+  document.addEventListener("DOMContentLoaded", () => {
+    const header = document.querySelector("header");
+    const nav = document.querySelector("nav ul");
+
+    // Create hamburger button
+    const menuToggle = document.createElement("div");
+    menuToggle.id = "menu-toggle";
+    menuToggle.innerHTML = "&#9776;"; // Hamburger icon (☰)
+    menuToggle.style.fontSize = "26px";
+    menuToggle.style.cursor = "pointer";
+    menuToggle.style.display = "none"; // Hidden on desktop
+
+    header.insertBefore(menuToggle, nav);
+
+    // Toggle menu on click
+    menuToggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+  });
+</script>
+
 </body>
+
